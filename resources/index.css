@@ -10,28 +10,32 @@ principal: #5397A6
 }
 
 body {
-    background-image: url('/resources/images/pexels-vlad-chețan-2923156.jpg');
+    background-image: url('/resources/images/pexels-andre-furtado-1748985.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+div {
+    height: 20em;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    color: #D9C8A9;
 }
 
-h1 {
-    position: relative;
-    top: 2em;
+div > h1 > span {
+    color: #F29F05;
 }
 
-
-button {
-    position: absolute;
-    bottom: 0.5em;
+div > button {
     width: 15em;
-    height: 5em;
+    height: 2em;
     border-radius: 10px;
-    border: 3px solid black;
-    background-color: transparent;
+    border: none;
+    background-color: #343D59;
+    color: #D9C8A9;
 }
