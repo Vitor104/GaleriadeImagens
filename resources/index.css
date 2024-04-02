@@ -31,7 +31,7 @@ div > h1 > span {
     color: #F29F05;
 }
 
-div > button {
+div > a > button {
     width: 15em;
     height: 2em;
     border-radius: 10px;
