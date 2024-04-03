@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #343D59;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    height: 5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid white;
+    background-color: #D9C8A9;
+}
+
+nav > div {
+    width: 5em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav > img {
+    height: 2em;
+    width: 2em;
+    position: relative;
+    left: 0.5em;
+}
+
+/* M A I N  */
+
+main {
+    width: 100%;
+    height: 50em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main > .photosContainer {
+    height: 9em;
+    width: 9em;
+    background-color: red;
+    border-radius: 10px;
+}
+
+main > .photosContainer > img {
+    max-width: 100%;
+    max-height: 100%;
+}
