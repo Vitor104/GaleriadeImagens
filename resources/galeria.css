@@ -32,6 +32,25 @@ nav > img {
     left: 0.5em;
 }
 
+nav > section {
+    height: 8em;
+    width: 8em;
+    background-color: white;
+    position: absolute;
+    top: 5em;
+    left: 0.5em;
+    z-index: 1;
+    text-align: center;
+}
+
+nav > section > ul {
+    list-style: none;
+}
+
+nav > section > ul > li {
+    
+}
+
 /* M A I N  */
 
 main {
