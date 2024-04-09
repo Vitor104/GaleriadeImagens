@@ -10,7 +10,7 @@ principal: #5397A6
 }
 
 body {
-    background-image: url('/resources/images/pexels-andre-furtado-1748985.jpg');
+    background-image: url('resources/images/pexels-andre-furtado-1748985.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
