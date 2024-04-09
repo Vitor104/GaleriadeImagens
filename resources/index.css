@@ -39,3 +39,22 @@ div > a > button {
     background-color: #343D59;
     color: #D9C8A9;
 }
+
+@media only screen and (min-width: 768px) {
+    div {
+       position: relative;
+       top: 5em; 
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    body {
+        background-attachment:scroll;
+    }
+
+    div > h1 {
+        font-size: 45px;
+    }
+}
+
+
