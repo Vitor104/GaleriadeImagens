@@ -41,19 +41,52 @@ div > a > button {
 }
 
 @media only screen and (min-width: 768px) {
-    div {
-       position: relative;
-       top: 5em; 
-    }
-}
-
-@media only screen and (min-width: 1400px) {
     body {
         background-attachment:scroll;
     }
 
+
+    div {
+       position: relative;
+       
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    div > h1 {
+        color: #343D59;
+    }
+
+    div > a > button {
+        height: 4em;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+
     div > h1 {
         font-size: 45px;
+    }
+}
+
+@media only screen and (min-width: 2500px) {
+    body {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    div {
+        top: 10em;
+    }
+
+    div > h1 {
+        font-size: 70px;
+    }
+
+    div > a > button {
+        height: 4em;
+        font-size: 30px;
     }
 }
 
