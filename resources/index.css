@@ -10,6 +10,8 @@ principal: #5397A6
 }
 
 body {
+    height: 20em;
+    width: 100%;
     background-image: url('/resources/images/fundo.jpg');
     background-attachment: fixed;
     background-position: center;
