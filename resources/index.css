@@ -10,16 +10,14 @@ principal: #5397A6
 }
 
 body {
-    height: 20em;
-    width: 100%;
-    background-image: url("fundo.jpg");
-    background-attachment: fixed;
-    background-position: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #D9C8A9, #343D59, #F29F05);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 div {
+    position: relative;
+    top: 4em;
     height: 20em;
     width: 100%;
     display: flex;
@@ -40,18 +38,6 @@ div > a > button {
     border: none;
     background-color: #343D59;
     color: #D9C8A9;
-}
-
-@media only screen and (min-width: 768px) {
-    body {
-        background-attachment:scroll;
-    }
-
-
-    div {
-       position: relative;
-       
-    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -79,6 +65,7 @@ div > a > button {
     }
 
     div {
+        position: relative;
         top: 10em;
     }
 
